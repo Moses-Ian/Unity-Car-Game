@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Driver : MonoBehaviour
 {
-    [SerializeField] float steerSpeed = 300f;
-    [SerializeField] static float baseMoveSpeed = 20f;
-    [SerializeField] float slowSpeed = 17f;
-    [SerializeField] float boostSpeed = 23f;
-    [SerializeField] float moveSpeed = baseMoveSpeed;
+    float steerSpeed = 300f;
+    static float baseMoveSpeed = 20f;
+    float slowSpeed = 12f;
+    float boostSpeed = 28f;
+    float moveSpeed = baseMoveSpeed;
 
     void Start()
     {
